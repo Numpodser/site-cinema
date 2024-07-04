@@ -1,0 +1,96 @@
+/* body{
+    color: white;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+
+
+body {
+    background-image: url(windows-11-dark-mode-abstract-background-black-background-3840x2160-8710.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#caixas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botao{
+    background-color: rgb(46, 45, 45);
+    border-radius: 25px;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-style: solid;
+}
+
+header {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    width: 300px;
+}
+
+img{
+    width: 150px;
+}
+
+#antes{
+    width: 200px;
+}
+
+.divs{
+    background-color: rgb(98, 98, 98);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.ProtaFoto{
+    align-self: center;
+}
+#Prota{
+    margin: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 80%;
+}
+.item{
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+}

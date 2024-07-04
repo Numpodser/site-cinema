@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Protagonistas</title>
+    <link rel="stylesheet" href="ProjetoEstilo.css">
+    <script src="ProjetoCodigo.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav> <button class="botao"><a href="paginaFilmes.html"> Filmes</a> </button></nav>
+        <nav> <button class="botao"><a href="ProjetoIndex.html"> Protagonistas</a></button></nav>
+    </header>
+
+    <main>
+        <div id="caixas">
+            <form onsubmit="addProta(event)">
+                <label for="foto">Adicione um link de uma foto do personagem:</label>
+                <input type="url" name="foto" id="foto">
+                <br>
+                <label for="nome">Nome do Protagonista:</label>
+                <input type="text" name="nome" id="nome">
+                <br>
+                <label for="ator">Nome do ator/atriz:</label>
+                <input type="text" name="ator" id="ator">
+                <br>
+                <label for="descri">Descrição:</label>
+                <br>
+                <textarea name="descri" id="descri" cols="25" rows="5"></textarea>
+                <br>
+                <label for="skill">Habilidades:</label>
+                <br>
+                <textarea name="skill" id="skill" cols="25" rows="5"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <!-- <div ><img id="ProtaFoto" src="" alt=""></div> -->
+    <footer>
+        <div id="Prota" class="divs"></div>
+        <!-- <div id="antes" class="divs"></div> -->
+    </footer>
+    <!-- <button onclick="salvar()">Salvar</button> -->
+
+
+</body>
+
+</html>

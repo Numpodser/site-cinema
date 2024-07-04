@@ -1,0 +1,74 @@
+body {
+    background-image: url(windows-11-dark-mode-abstract-background-black-background-3840x2160-8710.jpg) ;
+    /* background-color: rgb(61, 61, 61); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#caixas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bota{
+    background-color: rgb(46, 45, 45);
+    border-radius: 25px;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-style: solid;
+}
+
+header {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#Formo {
+    text-align: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    width: 300px;
+}
+
+img{
+    width: 150px;
+    align-self: center;
+
+}
+
+#antesSalvar{
+    width: 200px;
+}
+
+.divs{
+    background-color: rgb(46, 45, 45);
+    width: 200px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#filmes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}

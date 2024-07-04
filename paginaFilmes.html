@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Filmes</title>
+    <script src="codFilmes.js" defer></script>
+    <link rel="stylesheet" href="estiloFilmes.css">
+</head>
+
+<body>
+    <header>
+        <nav><button class="bota"><a href="paginaFilmes.html">Filmes</a></button></nav>
+        <nav><button class="bota"><a href="ProjetoIndex.html">Protagonistas</a></button></nav>
+    </header>
+    <main>
+        <div id="caixas">
+            <form onsubmit="AddFilme(event)" id="Formo">
+                <label for="titulo"></label>
+                <input type="text" id="titulo" placeholder="Digite o título do filme">
+                <br>
+                <label for="autor"></label>
+                <input type="text" id="autor" placeholder="Digite o nome do autor">
+                <br>
+                <label for="data">Data de lançamento</label>
+                <input type="date" id="data">
+                <br>
+                <label for="genero"></label>
+                <input type="text" id="genero" placeholder="Digite o genêro do filme">
+                <br>
+                <label for="duracao">Duração</label>
+                <input type="time" id="duracao">
+                <br>
+                <label for="capa"></label>
+                <input type="url" id="capa" placeholder="Adicione a url da imagem">
+                <br>
+                <label for="sipnose"></label>
+                <!-- <br> -->
+                <textarea name="" id="sipnose" cols="25" rows="5" placeholder="Digite a sipnose do filme"></textarea>
+                <br>
+                <button id="botao" class="bota" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id="Filmes">
+            <div id="antesSalvar" class="divs"></div>
+            <div id="deposiSalvar" class="divs"></div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
